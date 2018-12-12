@@ -33,3 +33,6 @@ class douyuSelenium(unittest.TestCase):
         def tearDown(self):
             print('加载完成...')
             self.driver.quit()
+
+if __name__ == "__main__":
+    unittest.main()
